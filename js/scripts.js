@@ -15,7 +15,7 @@
             github: "https://github.com/ABDALLAHSOILIHIMzeAssaf",
             portfolio: "https://mze-assaf.netlify.app",
             available: "🔎 Recherche alternance — Rentrée 2026",
-            bio: "Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme [MovieDB2026](https://github.com/ABDALLAHSOILIHIMzeAssaf/MovieDB2026).\nPassionné d’IA et de cybersécurité, je participe à des projets innovants via le [programme Kesk’IA](https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all) et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).\nMon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées."
+            bio: "Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme <a href=\"https://github.com/ABDALLAHSOILIHIMzeAssaf/MovieDB2026\" target=\"_blank\" rel=\"noopener noreferrer\">MovieDB2026</a>.\nPassionné d’IA et de cybersécurité, je participe à des projets innovants via le <a href=\"https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all\" target=\"_blank\" rel=\"noopener noreferrer\">programme Kesk’IA</a> et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).\nMon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées."
         };
 
         const TYPING_PHRASES = [
