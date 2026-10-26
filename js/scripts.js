@@ -459,8 +459,8 @@
                             >
                                 MovieDB2026
                             </a>.
-                            {"\n"}
-                            Passionné d’IA et de cybersécurité, je participe à des projets innovants via le{' '}
+                            Passionné d’IA et de cybersécurité, 
+                            {"\n"}je participe à des projets innovants via le{' '}
                             <a
                                 href="https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all"
                                 target="_blank"
@@ -469,7 +469,9 @@
                             >
                                 programme Kesk’IA
                             </a>{' '}
-                            et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).
+                            et à des hackathons : 
+                            {"\n"}
+                            7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (744 participants).
                             {"\n"}
                             Mon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées.
                         </p>
