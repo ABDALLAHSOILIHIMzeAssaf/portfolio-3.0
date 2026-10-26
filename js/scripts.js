@@ -15,7 +15,7 @@
             github: "https://github.com/ABDALLAHSOILIHIMzeAssaf",
             portfolio: "https://mze-assaf.netlify.app",
             available: "🔎 Recherche alternance — Rentrée 2026",
-            bio: "Je construis pour apprendre, j’expérimente pour progresser. 💻 \nDéveloppement web, 2D / 3D, IA & cybersécurité : je transforme mes idées en projets concrets et j’apprends sur le terrain.Explorez mes projets, mes compétences et mon parcours — et si vous avez un projet, parlons-en."
+            bio: "Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme [MovieDB2026](https://github.com/ABDALLAHSOILIHIMzeAssaf/MovieDB2026).\nPassionné d’IA et de cybersécurité, je participe à des projets innovants via le [programme Kesk’IA](https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all) et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).\nMon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées."
         };
 
         const TYPING_PHRASES = [
