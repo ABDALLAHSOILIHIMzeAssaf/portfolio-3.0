@@ -304,8 +304,7 @@
                 { id: 'about', label: 'À propos' },
                 { id: 'experience', label: 'Expériences' },
                 { id: 'projects', label: 'Projets' },
-                { id: 'blog', label: 'Blog 📰' }, //
-                { id: 'contact', label: 'Contact' }
+                { id: 'blog', label: 'Blog 📰' }
             ];
 
             return (
@@ -341,6 +340,14 @@
                                     </button>
                                 ))}
 
+                                {/* CTA Button */}
+                                <button
+                                    onClick={() => setActiveSection('contact')}
+                                    className="ml-4 gradient-bg text-white px-5 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-all hover:scale-105"
+                                >
+                                    Me contacter
+                                </button>
+
                                 {/* Dark mode toggle */}
                                 <button
                                     onClick={() => setDarkMode(!darkMode)}
@@ -350,14 +357,6 @@
                                         }`}
                                 >
                                     {darkMode ? '☀️' : '🌙'}
-                                </button>
-
-                                {/* CTA Button */}
-                                <button
-                                    onClick={() => setActiveSection('contact')}
-                                    className="ml-4 gradient-bg text-white px-5 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-all hover:scale-105"
-                                >
-                                    Me contacter
                                 </button>
                             </div>
 
