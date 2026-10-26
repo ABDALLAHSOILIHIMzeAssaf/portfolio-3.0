@@ -422,7 +422,7 @@
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 badge-pulse
                         bg-green-100 text-green-800 border border-green-200">
                             <span className="w-2 h-2 bg-green-500 rounded-full inline-block animate-pulse"></span>
-                            <span className="text-sm font-medium">Stage 2 mois — Disponible dès janvier 2027</span>
+                            <span className="text-sm font-medium">En recherche de stage de 2 mois à partir du 4 Janvier 2027</span>
                         </div>
 
                         {/* Photo / Avatar */}
