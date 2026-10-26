@@ -15,7 +15,7 @@
             github: "https://github.com/ABDALLAHSOILIHIMzeAssaf",
             portfolio: "https://mze-assaf.netlify.app",
             available: "🔎 Recherche alternance — Rentrée 2026",
-            bio: "Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme <a href=\"https://github.com/ABDALLAHSOILIHIMzeAssaf/MovieDB2026\" target=\"_blank\" rel=\"noopener noreferrer\">MovieDB2026</a>.\nPassionné d’IA et de cybersécurité, je participe à des projets innovants via le <a href=\"https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all\" target=\"_blank\" rel=\"noopener noreferrer\">programme Kesk’IA</a> et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).\nMon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées."
+            bio: "Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme MovieDB2026.\nPassionné d’IA et de cybersécurité, je participe à des projets innovants via le programme Kesk’IA et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).\nMon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées."
         };
 
         const TYPING_PHRASES = [
@@ -422,7 +422,7 @@
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 badge-pulse
                         bg-green-100 text-green-800 border border-green-200">
                             <span className="w-2 h-2 bg-green-500 rounded-full inline-block animate-pulse"></span>
-                            <span className="text-sm font-medium">En recherche de stage de 2 mois à partir du 4 Janvier 2027</span>
+                            <span className="text-sm font-medium">Stage 2 mois — Disponible dès janvier 2027</span>
                         </div>
 
                         {/* Photo / Avatar */}
@@ -447,10 +447,31 @@
                             <TypingAnimation />
                         </div>
 
-                        {/* Bio courte */}
-                        <p className={`text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'
+                        {/* Bio courte avec liens cliquables : en JSX, pas en HTML dans une chaîne */}
+                        <p className={`text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed whitespace-pre-line ${darkMode ? 'text-gray-300' : 'text-gray-600'
                             }`}>
-                            {PERSONAL_DATA.bio}
+                            Étudiant en 2ᵉ année de BTS SIO, option SLAM, je développe des projets web comme{' '}
+                            <a
+                                href="https://github.com/ABDALLAHSOILIHIMzeAssaf/MovieDB2026"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-violet-500 hover:underline font-semibold"
+                            >
+                                MovieDB2026
+                            </a>.
+                            {"\n"}
+                            Passionné d’IA et de cybersécurité, je participe à des projets innovants via le{' '}
+                            <a
+                                href="https://www.linkedin.com/showcase/kesk-ia-programme/posts/?feedView=all"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-violet-500 hover:underline font-semibold"
+                            >
+                                programme Kesk’IA
+                            </a>{' '}
+                            et à des hackathons : 7ᵉ à Pass ton Hack (plus de 5 000 participants) et 190ᵉ à Hack mon Lycée (500 participants).
+                            {"\n"}
+                            Mon objectif : devenir ingénieur IA/Fullstack et concevoir des solutions concrètes et sécurisées.
                         </p>
 
                         {/* Stats rapides */}
